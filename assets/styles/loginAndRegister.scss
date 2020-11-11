@@ -1,0 +1,380 @@
+@import '_config';
+
+.header 
+{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header2 .div1
+{
+    margin-top: 200px;
+}
+
+.banner
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/banner2.jpg);
+    background-size: cover;
+    padding-top: 96px;
+}
+
+.banner .div1
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner .div1 h1
+{
+    color: white;
+    font-weight: 700;
+}
+
+.banner .div1 a
+{
+    color: white;
+    font-size: 0.8em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.banner .div1 a:first-of-type
+{
+    margin-left: 0px;
+}
+
+.banner .div1 .far
+{
+    color: white;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 1px;
+}
+
+@media (max-width: 991px)
+{
+    .banner
+    {
+        padding-top: 220px;
+    }
+
+    .banner .div3
+    {
+        margin-top: 100px;
+    }
+
+    .banner .div3 h1
+    {
+        font-size: 3em;
+    }
+}
+
+
+// *********************************SERVICE**************************************
+
+.service
+{
+    background-color: $orange1;
+}
+
+.service .div0
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.service .div0 .div1 img
+{
+    background: #ffa67a;
+    border-radius: 100px;
+    padding: 13px;
+    width: 60px;
+}
+
+.service .div0 .div2
+{
+    margin-left: 25px;
+}
+
+.service .div0 .div2 h6
+{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.service .div0 .div2 p
+{
+    color: #ffdac8;
+    font-size: 0.9em;
+    width: 190px;
+}
+
+@media (max-width: 991px)
+{
+    .service .div0 
+    {
+        margin-left: 0px;
+    }
+
+    .service .div0 .div2 p
+    {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .service .div0 
+    {
+        margin-left: 30px;
+    }
+}
+
+// ************************** VIDEO ************************
+
+.video
+{
+    background-color: $orange1;
+    margin-top: 100px;
+}
+
+.video .div1
+{
+    border-right: 2px dotted white;
+    padding-right: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.video .div1 h2
+{
+    color: white;
+    font-weight: 700;
+}
+
+.video .div1 h2 .span1
+{
+    color: black;
+}
+
+.video .div1 p
+{
+    color: white;
+}
+
+.video .div2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.video .div2 .fas
+{
+    color: white;
+    background: #F29264;
+    padding: 40px;
+    border-radius: 60px;
+}
+
+.video .div2 .fas:hover
+{
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid $orange2;
+}
+
+.video .div2 h6
+{
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+@media (max-width: 1199px)
+{
+    .video .div1 
+    {
+        padding-right: 60px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .video .div1 
+    {
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 767px)
+{
+
+    .video .div1
+    {
+        margin-bottom: 0px;
+    }
+
+    .video .div2
+    {
+        margin-bottom: 100px;
+    }
+}
+
+// ************************ POPUP **********************
+
+.popup 
+{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    background: rgba(0,0,0, 0.5);
+    position: fixed;
+    display: none;
+}
+
+.popup .box
+{
+    position: relative;
+}
+
+.popup p
+{
+    position: absolute;
+    top: 0px;
+    right: -34px;
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+    padding: 0px 7px;
+}
+
+.popup p:hover
+{
+    background: white;
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 1366px)
+{
+    .popup iframe 
+    {
+        width: 720px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .popup iframe 
+    {
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 550px)
+{
+    .popup iframe 
+    {
+        width: 350px;
+        height: 200px;
+    }
+
+    .popup p {
+        top: -45px;
+        right: 0;
+    }
+}
+
+
+// ********************* LOGIN **********************
+
+.login .div1
+{
+    margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.login .div1 h3
+{
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid $orange1;
+    padding-bottom: 20px;
+}
+
+.login .div1 .div11
+{
+    box-shadow: 0 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.login .div1 h5
+{
+    background: #3B5999;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.login .div1 .fab
+{
+    margin-right: 20px;
+}
+
+.login .div1 p
+{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.login .div1 input
+{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #d4d4d4;
+    font-weight: 600;
+    color: gray;
+}
+
+.login .div1 a
+{
+    float: right;
+    margin-top: 5px;
+    color: $orange1;
+}
+
+.login .div1 button
+{
+    width: 100%;
+    background: $orange1;
+    padding: 15px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width: 1199px)
+{
+    .login .div1 
+    {
+        padding: 0px;
+    }
+}

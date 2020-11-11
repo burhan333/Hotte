@@ -1,0 +1,300 @@
+span {
+  color: #FE702A;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/banner2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner2.jpg);
+  background-size: cover;
+  padding-top: 96px;
+}
+
+.banner .div1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.banner .div1 h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.banner .div1 a {
+  color: white;
+  font-size: 0.8em;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.banner .div1 a:first-of-type {
+  margin-left: 0px;
+}
+
+.banner .div1 .far {
+  color: white;
+  font-size: 0.5em;
+  position: relative;
+  bottom: 1px;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    padding-top: 220px;
+  }
+  .banner .div3 {
+    margin-top: 100px;
+  }
+  .banner .div3 h1 {
+    font-size: 3em;
+  }
+}
+
+.service {
+  background-color: #FE702A;
+}
+
+.service .div0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.service .div0 .div1 img {
+  background: #ffa67a;
+  border-radius: 100px;
+  padding: 13px;
+  width: 60px;
+}
+
+.service .div0 .div2 {
+  margin-left: 25px;
+}
+
+.service .div0 .div2 h6 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.service .div0 .div2 p {
+  color: #ffdac8;
+  font-size: 0.9em;
+  width: 190px;
+}
+
+@media (max-width: 991px) {
+  .service .div0 {
+    margin-left: 0px;
+  }
+  .service .div0 .div2 p {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .service .div0 {
+    margin-left: 30px;
+  }
+}
+
+.video {
+  background-color: #FE702A;
+  margin-top: 100px;
+}
+
+.video .div1 {
+  border-right: 2px dotted white;
+  padding-right: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.video .div1 h2 {
+  color: white;
+  font-weight: 700;
+}
+
+.video .div1 h2 .span1 {
+  color: black;
+}
+
+.video .div1 p {
+  color: white;
+}
+
+.video .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.video .div2 .fas {
+  color: white;
+  background: #F29264;
+  padding: 40px;
+  border-radius: 60px;
+}
+
+.video .div2 .fas:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #FFEEE7;
+}
+
+.video .div2 h6 {
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+@media (max-width: 1199px) {
+  .video .div1 {
+    padding-right: 60px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .video .div1 {
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video .div1 {
+    margin-bottom: 0px;
+  }
+  .video .div2 {
+    margin-bottom: 100px;
+  }
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+}
+
+.popup .box {
+  position: relative;
+}
+
+.popup p {
+  position: absolute;
+  top: 0px;
+  right: -34px;
+  font-size: 2em;
+  color: white;
+  font-weight: 600;
+  padding: 0px 7px;
+}
+
+.popup p:hover {
+  background: white;
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 1366px) {
+  .popup iframe {
+    width: 720px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .popup iframe {
+    width: 500px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 550px) {
+  .popup iframe {
+    width: 350px;
+    height: 200px;
+  }
+  .popup p {
+    top: -45px;
+    right: 0;
+  }
+}
+
+.error {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.error .p1 {
+  color: gray;
+  font-weight: 600;
+}
+
+.error span {
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.error .p2 {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: gray;
+}
+
+.error a {
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#fe702a), to(#cc0f16));
+  background: linear-gradient(90deg, #fe702a 0%, #cc0f16 100%);
+  padding: 15px 35px;
+  border-radius: 30px;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 0.8em;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.error a .far {
+  margin-right: 15px;
+  font-size: 0.7em;
+}
+
+.error a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#cc0f16), to(#fe702a));
+  background: linear-gradient(90deg, #cc0f16 0%, #fe702a 100%);
+}
+
+.error img {
+  width: 500px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=error.css.map */

@@ -1,0 +1,610 @@
+span {
+  color: #FE702A;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header2 .div1 {
+  margin-top: 200px;
+}
+
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/banner2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner2.jpg);
+  background-size: cover;
+  padding-top: 96px;
+}
+
+.banner .div1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.banner .div1 h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.banner .div1 a {
+  color: white;
+  font-size: 0.8em;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.banner .div1 a:first-of-type {
+  margin-left: 0px;
+}
+
+.banner .div1 .far {
+  color: white;
+  font-size: 0.5em;
+  position: relative;
+  bottom: 1px;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    padding-top: 220px;
+  }
+  .banner .div3 {
+    margin-top: 100px;
+  }
+  .banner .div3 h1 {
+    font-size: 3em;
+  }
+}
+
+.service {
+  background-color: #FE702A;
+}
+
+.service .div0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.service .div0 .div1 img {
+  background: #ffa67a;
+  border-radius: 100px;
+  padding: 13px;
+  width: 60px;
+}
+
+.service .div0 .div2 {
+  margin-left: 25px;
+}
+
+.service .div0 .div2 h6 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.service .div0 .div2 p {
+  color: #ffdac8;
+  font-size: 0.9em;
+  width: 190px;
+}
+
+@media (max-width: 991px) {
+  .service .div0 {
+    margin-left: 0px;
+  }
+  .service .div0 .div2 p {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .service .div0 {
+    margin-left: 30px;
+  }
+}
+
+.video {
+  background-color: #FE702A;
+  margin-top: 100px;
+}
+
+.video .div1 {
+  border-right: 2px dotted white;
+  padding-right: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.video .div1 h2 {
+  color: white;
+  font-weight: 700;
+}
+
+.video .div1 h2 .span1 {
+  color: black;
+}
+
+.video .div1 p {
+  color: white;
+}
+
+.video .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.video .div2 .fas {
+  color: white;
+  background: #F29264;
+  padding: 40px;
+  border-radius: 60px;
+}
+
+.video .div2 .fas:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #FFEEE7;
+}
+
+.video .div2 h6 {
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+@media (max-width: 1199px) {
+  .video .div1 {
+    padding-right: 60px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .video .div1 {
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video .div1 {
+    margin-bottom: 0px;
+  }
+  .video .div2 {
+    margin-bottom: 100px;
+  }
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+}
+
+.popup .box {
+  position: relative;
+}
+
+.popup p {
+  position: absolute;
+  top: 0px;
+  right: -34px;
+  font-size: 2em;
+  color: white;
+  font-weight: 600;
+  padding: 0px 7px;
+}
+
+.popup p:hover {
+  background: white;
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 1366px) {
+  .popup iframe {
+    width: 720px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .popup iframe {
+    width: 500px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 550px) {
+  .popup iframe {
+    width: 350px;
+    height: 200px;
+  }
+  .popup p {
+    top: -45px;
+    right: 0;
+  }
+}
+
+.checkout {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.checkOut1 .div1 .div12 h5 {
+  margin-top: 20px;
+}
+
+.checkOut1 .div1 .div12 input {
+  border: 1px solid #d0d0d0;
+  width: 45%;
+  display: inline-block;
+  color: gray;
+  padding: 10px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.checkOut1 .div1 .div12 textarea {
+  width: 49%;
+  height: 120px;
+  color: gray;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  outline: none;
+}
+
+.checkOut1 .div1 .div12 button {
+  width: 49%;
+  margin-top: 50px;
+  color: white;
+  border: none;
+  background: #FE702A;
+  padding: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+  .checkOut1 .div1 .div12 p {
+    width: 100%;
+  }
+  .checkOut1 .div1 .div12 textarea {
+    width: 100%;
+  }
+  .checkOut1 .div1 .div12 button {
+    width: 100%;
+  }
+}
+
+.checkOut2 .div1 .div12 h5 {
+  margin-top: 20px;
+}
+
+.checkOut2 .div1 .div12 input {
+  overflow: visible;
+  color: gray;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid #bdbdbd;
+  margin-top: 20px;
+  width: 49%;
+}
+
+.checkOut2 #last {
+  float: right;
+}
+
+.checkOut2 .div1 .div12 form input:nth-child(3) {
+  float: right;
+}
+
+.checkOut2 .div1 .div12 input:first-of-type, .checkOut2 .div1 .div12 input:last-of-type {
+  width: 100%;
+}
+
+.checkOut2 .div1 .div12 button {
+  width: 49%;
+  margin-top: 50px;
+  color: white;
+  border: none;
+  background: #FE702A;
+  padding: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+  .checkOut2 .div1 .div12 input {
+    width: 100%;
+  }
+  .checkOut2 .div1 .div12 button {
+    width: 100%;
+  }
+}
+
+.checkOut3 .div1 .div12 h5 {
+  margin-top: 20px;
+}
+
+.checkOut3 .div1 .div12 input[type="text"] {
+  overflow: visible;
+  color: gray;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.checkOut3 .div1 .div12 form input[type="text"]:nth-child(6) {
+  width: 49%;
+}
+
+.checkOut3 .div1 .div12 form input[type="text"]:nth-child(7) {
+  width: 49%;
+  float: right;
+}
+
+.checkOut3 .div1 .div12 button {
+  width: 100%;
+  margin-top: 50px;
+  color: white;
+  border: none;
+  background: #FE702A;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.checkOut3 .div2 {
+  border: 1px solid #cecece;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.checkOut3 .div2 label {
+  margin-left: 10px;
+}
+
+.checkOut3 .div3 {
+  border: 1px solid #cecece;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.checkOut3 .div3 label {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.wizard {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+#example-form .wizard > .content {
+  background: none;
+  overflow: visible;
+  min-height: 32em;
+}
+
+#example-form .wizard > .content > .body input {
+  display: inline-block;
+}
+
+#example-form .wizard > .content > .body {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.wizard > .steps .number {
+  font-size: 1.429em;
+  display: none;
+}
+
+.wizard > .steps .done a {
+  background-color: transparent;
+  color: #FE702A;
+}
+
+.wizard > .steps .done a:hover {
+  background-color: transparent;
+  font-weight: 600;
+  color: #FE702A;
+}
+
+.wizard > .steps .current a {
+  background-color: transparent;
+  color: #FE702A;
+}
+
+.wizard > .steps .current a:hover {
+  background-color: transparent;
+  font-weight: 600;
+  color: #FE702A;
+}
+
+.wizard > .steps .disabled a {
+  color: gray;
+  background-color: transparent;
+}
+
+.wizard > .steps .disabled a:hover {
+  background-color: transparent;
+  font-weight: 600;
+  color: #FE702A;
+}
+
+.wizard > .steps > ul > li {
+  width: auto;
+}
+
+.wizard > .steps a {
+  padding: 0;
+}
+
+.wizard > .steps a:hover {
+  padding: 0;
+}
+
+.checkout .span1 {
+  color: gray !important;
+}
+
+.wizard > .actions a {
+  background-color: #FE702A;
+  border-radius: 0;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wizard > .actions a:hover {
+  background-color: #FE702A;
+  border-radius: 0;
+  color: black;
+}
+
+@media (max-width: 575px) {
+  .checkOut3 .div1 .div12 form input[type="text"]:nth-child(6) {
+    width: 100%;
+  }
+  .checkOut3 .div1 .div12 form input[type="text"]:nth-child(7) {
+    width: 100%;
+    float: none;
+  }
+  .wizard > .actions a {
+    width: auto;
+    text-align: center;
+    height: auto;
+  }
+}
+
+.order2 {
+  background-color: white;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
+  z-index: 1;
+  -webkit-box-shadow: -10px 0 20px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: -10px 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.order2 .div1 {
+  width: 100%;
+}
+
+.order2 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: gray;
+  margin-top: 50px;
+}
+
+.order2 .box1 .p1 {
+  display: inline-block;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.order2 .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.order2 .box2 .p1 {
+  font-weight: 600;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.order2 .box2 .p2 {
+  font-weight: 600;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.order2 .box2 .p11 {
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.order2 .box2 .p21 {
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+@media (max-width: 991px) {
+  .order2 {
+    margin-top: 50px;
+  }
+}
+
+.input-group {
+  width: 55%;
+  float: left;
+  height: 40px;
+}
+
+.form-control {
+  height: auto;
+  border-radius: 0;
+}
+
+.input-group.date .input-group-addon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.input-group.date .input-group-addon .fas {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=checkOut.css.map */
